@@ -1,0 +1,21 @@
+{
+  "name": "accounts",
+  "version": "1.0.0",
+  "description": "Projeto em node.js simulando no terminal um sistema de conta bancaria simplificada",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "accounts",
+    "node.js"
+  ],
+  "author": "Gustavo Matos",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^12.0.1"
+  }
+}
